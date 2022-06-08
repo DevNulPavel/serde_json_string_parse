@@ -1,6 +1,6 @@
 [package]
 name = "serde_json_string_parse"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["DevNul <devnulpavel@gmail.com>"]
 edition = "2021"
 categories = ["encoding"]
