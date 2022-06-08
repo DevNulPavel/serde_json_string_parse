@@ -1,10 +1,10 @@
 [package]
 name = "serde_json_string_parse"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["DevNul <devnulpavel@gmail.com>"]
 edition = "2021"
-categories = ["web-programming::http-client"]
-keywords = ["reqwest", "debug", "json"]
+categories = ["encoding"]
+keywords = ["trait", "string", "serde", "json"]
 license = "Apache-2.0 OR MIT"
 readme = "README.md"
 repository = "https://github.com/DevNulPavel/serde_json_string_parse"
