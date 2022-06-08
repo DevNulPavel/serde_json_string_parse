@@ -19,7 +19,9 @@ let text = String::from(r#"{
     "key": "value"
 }"#);
 
-let parse_result: TestStruct = text.parse_json_with_data_err().expect("Parsing failed");
+let parse_result: TestStruct = text
+    .parse_json_with_data_err()
+    .expect("Parsing failed");
 assert_eq!(parse_result.key, "value");
 ```
 
